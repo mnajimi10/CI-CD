@@ -1,0 +1,5 @@
+lab/output/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/

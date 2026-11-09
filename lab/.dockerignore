@@ -1,0 +1,9 @@
+output/
+tests/
+tools/
+workflows/
+data/new_data/
+**/__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
