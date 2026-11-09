@@ -60,8 +60,11 @@ jobs:
       - name: Package the website
         uses: actions/upload-pages-artifact@v5
         with:
+          name: my-website
           path: site
 
       - name: Deploy to GitHub Pages
         id: pages
         uses: actions/deploy-pages@v5
+        with :
+          artifact_name: my-website
